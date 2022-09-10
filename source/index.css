@@ -1,0 +1,101 @@
+@media screen and (min-width:300px) and (max-width:750px)  {
+    /* For phone: */
+    .head_bar h1{
+        font-size:20px;
+        color:rgb(0, 0, 0);
+    }
+    .container{
+        font-size: 12px;
+        text-align: justify;
+
+    }
+     ol{
+        font-size: 11px;
+        text-align: left;
+
+    }
+    .footer{
+        font-size: 8px;
+    }
+  }
+
+
+  @media screen and (min-width:750px) and (max-width:1200px){
+    .head_bar h1{
+        font-size: 30px;
+        color:rgb(0, 0, 3);
+    }
+    .container h2{
+       font-size:30px;
+    }
+  }
+
+    
+
+ 
+body{
+    background-color: aliceblue;
+    height: auto;
+}
+
+.head_bar {
+    height: auto;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    box-shadow:  8px 8px 8px rgb(194, 195, 238);
+    z-index: 10;
+    position: fixed;
+    top:0%;
+}
+.head_bar h1{
+
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    padding-left:  2%;
+    margin-left: 10%;
+}
+
+.head_bar img{
+    width: 55px;
+    height: 55px;
+    margin-left: 10%;
+}
+.container{
+    margin-top:11%;
+    padding-top: 80px;
+    border: 1px rgb(255, 255, 255) solid;
+    box-shadow:  8px 8px 8px  rgb(194, 195, 238);
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}   
+footer{
+    margin-top: 50px;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(225, 219, 219);
+ font-family: 'Signika Negative', sans-serif;
+ bottom: 0%;
+
+
+ 
+ }
+ footer p{
+    color:rgb(0, 0, 0);
+    text-align: left;
+ 
+ }
+ footer img{
+ width: 25px;
+ height: 25px;
+ }
+ footer span{
+ justify-content: center;
+ }
+main  h2{
+    font-weight: 500;
+}
