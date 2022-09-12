@@ -7,13 +7,19 @@
     .container{
         font-size: 12px;
         text-align: justify;
+        padding-bottom: 10%;
+       
 
+    }
+    main{
+        margin-top: 20%;
     }
      ol{
         font-size: 11px;
         text-align: left;
 
     }
+   
     .footer{
         font-size: 8px;
     }
@@ -27,15 +33,24 @@
     }
     .container h2{
        font-size:30px;
+       top: 0%;
+       left: 0%;
+      
+       
     }
+    main{
+        padding-bottom: 90px;
+        margin-top: 20%;
+    }
+    
   }
 
     
 
- 
+
 body{
     background-color: aliceblue;
-    height: auto;
+    height: 100%;
 }
 
 .head_bar {
@@ -65,21 +80,23 @@ body{
     margin-left: 10%;
 }
 .container{
-    margin-top:11%;
-    padding-top: 80px;
+    margin-top:10%;
+    padding-top: 50px;
     border: 1px rgb(255, 255, 255) solid;
     box-shadow:  8px 8px 8px  rgb(194, 195, 238);
     height: auto;
     width: 80%;
     margin-left: 10%;
+    padding-bottom: 50px;
+
 }   
 footer{
-    margin-top: 50px;
-    height: 120px;
+    margin-top: 5%;
+    height: 170px;
     width: 100%;
-    background-color: rgb(225, 219, 219);
+    background-color: rgb(255, 255, 255);
  font-family: 'Signika Negative', sans-serif;
- bottom: 0%;
+ 
 
 
  
@@ -92,6 +109,7 @@ footer{
  footer img{
  width: 25px;
  height: 25px;
+ margin-top:5%;
  }
  footer span{
  justify-content: center;
